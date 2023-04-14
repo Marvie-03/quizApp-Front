@@ -3,6 +3,9 @@
     --color-2:#4B4B71; 
     --color-3:white;
 }
+body{
+    background-color: var(--color-1) !important; 
+}
 .body
 {
     margin: 0px;
@@ -35,6 +38,14 @@
     font-size: 25px;
     outline: none;
 
+}
+.secondary{
+    background-color: var(--color-2);
+    color: var(--color-3);
+}
+.Wight{
+    background-color: var(--color-3);
+    color: var(--color-1);
 }
 .Startbtn:hover
 {
@@ -133,4 +144,56 @@ p
     justify-content: center;
     align-items: center;
     display: flex;
+}
+
+
+.card {
+    border: none;
+    border-radius: 10px
+}
+
+.c-details span {
+    font-weight: 300;
+    font-size: 13px
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    background-color: #eee;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 39px
+}
+
+.badge span {
+    background-color: var(--color-3);
+    width: 60px;
+    height: 25px;
+    padding-bottom: 3px;
+    border-radius: 5px;
+    display: flex;
+    color: var(--color-1);
+    justify-content: center;
+    align-items: center
+}
+
+.progress {
+    height: 10px;
+    border-radius: 10px
+}
+
+.progress div {
+    background-color: red
+}
+
+.text1 {
+    font-size: 14px;
+    font-weight: 600
+}
+
+.text2 {
+    color: #a5aec0
 }
