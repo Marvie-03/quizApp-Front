@@ -1,8 +1,12 @@
+import 'bootstrap/dist/css/bootstrap.css';
 
 function App() {
   return (
     <div className="App">
-      <h2>Home page</h2>
+      <div className="container">
+        <h2 className="bg-primary text-white p-2 mt-1">Welcome page</h2>
+      </div>
+      
     </div>
   );
 }
