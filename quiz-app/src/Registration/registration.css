@@ -1,0 +1,23 @@
+.switch-container{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 !important;
+    width: fit-content;
+    border-radius: 30px;
+}
+.reg-btn{
+    border-radius: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.active-link{
+    background-color: blue;
+    color:white;
+}
+.card{
+    width: fit-content;
+}
+form{
+    margin: auto;
+    width:fit-content;
+}
