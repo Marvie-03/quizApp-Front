@@ -26,18 +26,18 @@ const Signup = () => {
                         <div className="row">
                             <div className="col-12 mt-3">
                                 <input type="email" value='' onChange={''} className="form-control 
-                                form-control-sm form-control-outline-primary" placeholder="email"/>
+                                form-control-sm form-control-outline-primary" placeholder="Email"/>
                             </div>
                             <div className="col-12 mt-3">
                                 <input type="password" value='' onChange={''} className="form-control form-control-sm 
-                                form-control-outline-primary" placeholder="password"/>
+                                form-control-outline-primary" placeholder="Password"/>
                             </div>
                             <div className="col-12 mt-3">
                                 <input type="password" value='' onChange={''} className="form-control form-control-sm 
-                                form-control-outline-primary" placeholder="confirm password"/>
+                                form-control-outline-primary" placeholder="Confirm Password"/>
                             </div>
                         </div>
-                        <input className="form-control bg-primary mt-3" type="submit" 
+                        <input className="form-control text-white bg-primary mt-3" type="submit" 
                         value="Signup"/>
                     </div>
                 

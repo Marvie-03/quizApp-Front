@@ -58,7 +58,7 @@ const Dashboard = () => {
             </div>       
             <div className="container">
                 <div className="row">
-                    <div className="col-6">
+                    <div className="col-6 cursor-pointer">
                         <div className="card ">
                             <div className="image-container">
                                 <img  src={basketball} alt="sports" width="150px" />
