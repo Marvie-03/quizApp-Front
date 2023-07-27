@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import WelcomeScreen from './WelcomeScreen';
 import Signup from './Registration/Signup';
 import Login from './Registration/Login';
+import Dashboard from './Dashboard';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
             <Route element={<WelcomeScreen/>} path='/'/>
             <Route element={<Signup/>} path="/registration/signup"/>
             <Route element={<Login/>} path="/registration/login"/>
+            <Route element={<Dashboard/>} path="/dashboard"/>
           </Routes>
         </Router>
     </>

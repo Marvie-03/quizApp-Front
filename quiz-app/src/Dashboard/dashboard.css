@@ -1,0 +1,52 @@
+.user-card{
+    width:85vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.user-greeting{
+    font-size: 20px;
+    font-weight:600
+}
+.user-name{
+    display:flex;
+    flex-direction: column;
+}
+.user-image{
+    margin-top: 5px;
+    margin-right: 5px;
+    width: 45px;
+    height:45px; 
+}
+.image-container{
+    position: relative;
+    bottom: 25px;
+    right:15px;
+}
+
+.title-container{
+    margin-left: 10px;
+}
+.dimacation{
+    border-left: solid rgb(56, 49, 49) 1px ;
+}
+.achievement-container{
+    width:90vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ranking, .points{
+    
+    display: flex;
+}
+
+.achievement-image{
+    margin-top: 10px;
+    margin-right: 5px;
+    width: 35px;
+    height:35px;
+}
+
+
