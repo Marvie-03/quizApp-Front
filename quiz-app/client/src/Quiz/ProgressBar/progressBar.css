@@ -1,0 +1,25 @@
+.bar-container{
+    width: 250px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid rgb(31, 28, 28) 1px;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.cancel-button{
+    border: solid black 1px;
+    border-radius: 50px;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    padding-top: 2px;
+    margin-right: 5px;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+

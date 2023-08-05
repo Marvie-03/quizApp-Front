@@ -26,15 +26,15 @@ const Login = () => {
                         <div className="row">
                             <div className="col-12 mt-3">
                                 <input type="email" value='' onChange={''} className="form-control 
-                                form-control-sm form-control-outline-primary" placeholder="Email"/>
+                                form-control-sm form-control-outline-primary" placeholder="email"/>
                             </div>
                             <div className="col-12 mt-3">
                                 <input type="password" value='' onChange={''} className="form-control form-control-sm 
-                                form-control-outline-primary" placeholder="Password"/>
+                                form-control-outline-primary" placeholder="password"/>
                                 <Link to={''}><small className="text-muted">Forgot password?</small></Link>
                             </div>
                         </div>
-                        <input className="form-control bg-primary mt-3 text-white" type="submit" 
+                        <input className="form-control bg-primary mt-3" type="submit" 
                         value="Login"/>
                         <Link to={'/registration/signup'}>
                             <div style={{
